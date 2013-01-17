@@ -1,0 +1,2 @@
+class AuthenticationMixin(object):
+    pass
