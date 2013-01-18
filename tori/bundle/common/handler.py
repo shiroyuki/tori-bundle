@@ -13,7 +13,7 @@ class Controller(BaseController):
             'user': self.authenticated
         }
 
-        return super(BaseController, self).render_template(template_name, **contexts)
+        return super(Controller, self).render_template(template_name, **contexts)
 
 class RestController(BaseRestController):
     @property
